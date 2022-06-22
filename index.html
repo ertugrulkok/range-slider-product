@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="img_cont"><img id="image" src="images/2.jpg" alt="Denim Jeans" style="width: 100%" /></div>
+    <h1>Jewelled Sunglasses</h1>
+    <div>
+      <input
+        src="images/2.jpg"
+        type="radio"
+        name="size"
+        checked="checked"
+        value="159.90"
+        id="100"
+      />
+      <label for="100">Copper</label>
+    </div>
+    <div>
+      <input
+        src="images/1.jpg"
+        type="radio"
+        name="size"
+        value="269.90"
+        id="200"
+      />
+      <label for="100">Brass</label>
+    </div>
+    <div>
+      <input src="images/3.jpg" type="radio" name="size" value="379.90" id="300" />
+      <label for="100">Silver</label>
+    </div>
+    <div>
+      <input src="images/4.jpg" type="radio" name="size" value="489.90" id="400" />
+      <label for="100">Golden</label>
+    </div>
+
+    <p id="output">$ 159.90</p>
+
+    <div class="container">
+      <input id="range" type="range" min="1" max="10" value="1" />
+      <output> 1 Piece(s)</output>
+      <p id="price" class="price">Total $ 159.90</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  
+</body>
+</html>
